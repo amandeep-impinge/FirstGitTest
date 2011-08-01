@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"
+  android:background="#FFFFFF"
+  >
+  <TextView
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="channel 2"
+  android:textColor="#FFFFFF"
+  android:id="@+id/text_channel_name"
+  android:background="#000000"
+  
+  
+  />
+  
+  
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="5dp"
+  android:layout_marginLeft="5dp"
+  >
+  <ImageView
+  android:layout_width="120dp"
+  android:layout_height="120dp"
+  android:background="#000000"
+  android:id="@+id/img_big_channel"
+  
+  />
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+    android:orientation="vertical"
+  >
+  <TextView
+  android:layout_marginTop="5dp"
+  android:layout_marginLeft="5dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/text_channel_detail"
+  android:text="Some track info, will walk .."
+  android:textColor="#000000"
+  />
+  
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  >
+  <ImageView
+    android:layout_marginLeft="5dp"
+  android:layout_width="50dp"
+  android:layout_height="50dp"
+  android:id="@+id/img_small_channel"
+	android:layout_marginTop="48dp"
+  android:background="#000000"
+  
+  />
+  
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="P"
+  android:id="@+id/btn_previous"
+  />
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="play"
+  android:id="@+id/btn_play"
+  />
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="N"
+  android:id="@+id/btn_next"
+  />
+  
+  
+  
+  
+  </LinearLayout>
+  
+  </LinearLayout>
+  </LinearLayout>
+  
+  
+  <ListView
+  android:layout_marginTop="20dp"
+  android:layout_width="fill_parent"
+  android:layout_height="250dp"
+  android:id="@+id/list_channel"
+  />
+  <Button
+   android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/btn_share_this"
+  android:text="Share This"
+  android:layout_gravity="right"
+  
+  />
+  
+</LinearLayout>

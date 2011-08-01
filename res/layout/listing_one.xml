@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:orientation="vertical"  
+  android:background="#FFFFFF"
+  >
+  
+  
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="10dp"
+  
+  >
+  
+  <TextView
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Filter :"
+  android:textColor="#000000"
+  />
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Mood"
+  android:id="@+id/btn_mood"
+  />
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Genre"
+  android:id="@+id/btn_genre"
+  />
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Expension"
+  android:id="@+id/btn_expension"
+  />
+  
+    <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Refresh"
+  android:id="@+id/btn_refresh"
+  />
+    
+  
+  
+  </LinearLayout>
+  
+  <ImageView
+   	android:layout_width="wrap_content"
+  	android:layout_height="150dp"
+  	android:background="#000000"
+  	android:id="@+id/flip_list"
+  />
+  
+  
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+   <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="List"
+  android:id="@+id/btn_list"
+  />
+  <Button
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Map"
+  android:id="@+id/btn_map"
+  />
+  </LinearLayout>
+</LinearLayout>

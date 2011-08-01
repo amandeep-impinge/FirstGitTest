@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="#FFFFFF"
+  android:orientation="vertical"
+  android:gravity="center_horizontal"
+  
+  >
+  
+  
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  >
+  <ImageView
+  android:layout_marginLeft="10dp"
+  android:layout_width="100dp"
+  android:layout_height="100dp"
+  android:id="@+id/img_wellcome"
+  android:layout_marginRight="5dp"
+  android:background="#000000"
+  />
+  
+  
+  <!-- To show the  welcome text with changed orientation i.e  -->
+  <!-- Vertical  one behind other-->
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  
+  >
+  <TextView
+  android:textColor="#000000"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/text_welcome_heading"
+  android:text="Welcome to The Olmeca Music App."
+  android:textSize="20sp"
+  />
+  
+  <TextView
+  android:textColor="#000000"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:id="@+id/text_welcome_Sub_heading"
+  android:text="Lorem ipsizzle dolor sit amet, ipsizzle consec tetizzle dolor adipiscing elit amet."
+  
+  />
+  
+  </LinearLayout>
+  
+  
+  
+  
+  
+  
+  
+  </LinearLayout>
+  
+  <!--  Profile setup and text below it. -->
+  
+  
+  <TextView
+ 
+  android:layout_marginTop="5dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Your name"
+  android:background="#000000"
+  />
+  <LinearLayout
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:layout_marginTop="5dp"
+  >
+  
+  
+  <ImageView 
+  
+   android:layout_width="50dp"
+  android:layout_height="80dp"
+  android:background="#000000"
+  android:id="@+id/img_your"
+  />
+  
+  
+  <LinearLayout
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  >
+  <TextView
+   android:textColor="#000000"
+  android:layout_marginTop="5dp"
+  android:layout_marginLeft="5dp"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="Lorem ipsizzle dolor sit amet, consectetizzle adipiscing elit. Nullam rizzle velizzle, fo shizzle volutpat, suscipizzle dope, gravida vizzle."
+  android:id="@+id/text_your"
+  android:textSize="15sp"
+  />
+
+<Button
+android:layout_gravity="right"
+android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  
+  android:text="Share this"
+  android:id="@+id/btn_share_fb"
+
+/>
+
+
+  </LinearLayout>
+  
+  
+  
+  
+  </LinearLayout>
+  <TextView
+ 
+  android:layout_marginTop="5dp"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:text="Invite your friends"
+  android:background="#000000"
+  />
+  
+  <GridView
+  android:layout_width="fill_parent"
+  android:layout_height="80dp"
+  android:layout_marginTop="10dp"
+  android:id="@+id/gridview_frnd_list"
+  />
+  
+  <Button
+  android:layout_gravity="right"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:text="0"
+  android:id="@+id/btn_notificatin"
+  
+  />
+  
+  
+</LinearLayout>
